@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles1.css" /> 
+
+<SCRIPT>
+function ShowAndHide() {
+    var x = document.getElementById('SectionName');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function fun1(){
+location.href="complaint.html";
+}
+</SCRIPT>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><image src="logo.jpeg" class="image-responsive logo" style="widht:80px;height:50px;"></a>
+    </div>
+<p class="navbar-text text" style="color:white;font-size:20px;">SHRI VISHNU ENGINEERING COLLEGE FOR WOMENS</p>
+    <ul class="nav navbar-nav">
+
+      <li><a href="home.html">Home</a></li>
+      <li><a href="#" ONCLICK="ShowAndHide()">About Us</a></li>
+      <li><a href="viewstatus.html">View Status</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Login <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="login11.html">Student</a></li>
+          <li><a href="adminlogin.html">Admin</a></li>
+          <li><a href="deptlogin.html">Department</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<h1>College Grievance Management System</h1>
+<center>
+<div class="container-fluid">
+<button class="btn" onclick="fun1()">Report Complaint </button>
+</div>
+</center>
+<DIV ID="SectionName" STYLE="display:none"><div class="container">
+<h2>About Us</h2>
+<p><b><i>	This interface is made for the users who want to make a complaint against some problem they are facing and to get rid of it. The interface allows them to give them a description of the problem, that is when they were facing the problem where it was. In this interface people can pose a complaint online </i></b><p>
+</div></DIV>
+
+
+</body>
+</html>
+

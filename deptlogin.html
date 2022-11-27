@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+      <title>Login Form</title>
+      <link rel="stylesheet" href="l1style.css">
+<script>
+function fun4(){
+location.href="department.html";
+}
+</script>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+            Department Login Form
+         </div>
+         <form action="#">
+            <div class="field">
+               <input type="text" required placeholder="Username">
+            </div>
+           <div class="field">
+               <input type="password" required placeholder="Password">
+            </div><br> 
+           <label style="color:rgb(100, 100, 100)">Department:</label><br><br>
+            <input type="radio" required id='1' name="dpt" value="1" /> 
+            <label for="1" style="color:rgb(180,180,180)">College Infrastructure</label><br><br>    
+             <input type="radio" id='2' name="dpt" value="1" /> 
+            <label for="2" style="color:rgb(180,180,180)">Hostel Management</label><br><br>  
+             <input type="radio" id='3' name="dpt" value="1" /> 
+            <label for="3"style="color:rgb(180,180,180)">Library</label><br><br>
+             <input type="radio" id='4' name="dpt" value="1" /> 
+            <label for="4"style="color:rgb(180,180,180)">Labs</label><br><br>  
+                  <div class="field">
+               <input type="submit" id="p" value="Login" onclick="fun4()">
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

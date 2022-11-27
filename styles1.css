@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Times New Roman;
+background-image:url("bgedit.png");
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+background-attachment:fixed;
+  }
+.navbar-brand{
+margin:0;
+padding:0;
+}
+.logo{
+height:50px;
+padding-right:15px;
+padding-left:5px;
+}
+.navbar-inverse{
+height:75px;
+padding-top:2px;
+}
+.navbar-nav{
+float:right;
+font-size:20px;
+font-family:Times new Roman;
+}
+h1{
+  font-family:Merriweather;
+  text-align:center;
+  padding-top:60px;
+  font-size:50px;
+  padding-bottom:60px;
+  }
+.container{
+border-radius:3px;
+
+}
+.container h2{
+  font-family:Times New Roman;
+  text-align:center;
+font-size:28px;
+  }
+ .container p{
+ font-family:Cascade script;
+ font-size:25px;
+ }
+.container-fluid{
+  padding-top:10px;
+padding-bottom:40px;
+}
+.container-fluid .btn{
+ font-size:23px;
+  cursor: pointer;
+ background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 30px;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  height: 50px;
+padding: 8px;
+  position: relative;
+  text-decoration: none;
+
+}
+
+
+

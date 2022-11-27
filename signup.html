@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="l1style.css">
+      <title>Student Signup</title>
+      
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title">
+       Student Signup
+         </div>
+         <form onsubmit="Validate()">
+            <div class="field">
+               <input type="text" placeholder="Register Number" required>
+            </div>
+           <div class="field">
+               <input type="email"  placeholder="Email Id"  required>
+                </div>
+           <div class="field">              
+               <input type="password" id="P" placeholder="Password" required>
+            </div>
+             <div class="field">        
+               <input type="password" id="CP" placeholder=" Confirm Password" required>
+            </div>
+         <div class="field">
+               <input type="submit" id="p" value="Singup" onclick="fun2()">
+            </div>
+         </form>
+      </div>
+   </body>
+   <head>
+<script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("P").value;
+        var confirmPassword = document.getElementById("CP").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        return true;
+    }
+function fun2(){
+location.href="login11.html";
+}
+</script>
+</head>
+</html>
